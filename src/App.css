@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+/* .nav-bar{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+  height: 50px;
+
+    background-color: blue;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    list-style: none;
+
+    gap: 30px;
+    margin: auto;
+    background-color: blue;
+  
+} */
+.navbar-brand{
+    padding: 15px;
+   height:70px;
+   margin-top: 10px;
+   color: aliceblue;
+}
+.container-fluid{
+    box-shadow: 3px 2px gray;
+    background-color: blue;
+    border-radius: 2px;
+    color: aliceblue;
+}
+.container-fluid Link{
+    color: aliceblue;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px; 
+}
+.product-list li{
+    list-style: none;
+}
+.products{
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+  
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.products:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;    
+    transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    /* .img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    } */
+    .navbar .navbar-brand, .navbar .nav-link, .navbar .form-control, .navbar .btn-outline-success {
+        color: white !important; /* Force text color to white */
+      }
+      
+      .navbar .nav-link:hover, .navbar .navbar-brand:hover {
+        color: #ddd !important; /* Light gray on hover */
+      }
+      
+      .navbar {
+        background-color: #333; /* Dark background color */
+      }
+      
